@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "typeRoots": ["src/types", "./node_modules/@types"]
+  },
+  "files": ["src/types/global.d.ts"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
